@@ -1,0 +1,88 @@
+body {
+    margin: 3;
+    padding: 20px; 
+    background: #fb8b24 ;
+}
+    
+.name {
+    width: 98% ;
+    height: 160px;
+    background: #b8102f ;
+    transform: skewX(-25deg);
+}
+
+.name .content {
+    width: 50% ;
+    height: 50% ;
+    position: absolute ;
+    right:50%;
+}
+
+.name  .content .p-1{
+    color: #06d6a0;
+    font-family: 'Architects Daughter', cursiva;
+    font-weight: bolder;
+    font-size: xx-large;
+    transform: skewX(25deg)
+    margin-boton: 0;
+}
+
+.name  .content .p-2{
+    color: #06d6a0;
+    font-family: 'Architects Daughter', cursiva;
+    font-size: large;
+    transform: skewX(25deg)
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name .img{
+    position:absolute; 
+    top: 20%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skew(25deg);
+    overflow: hidden;
+}
+.name .img img{
+    width: 300px;
+    height: 400px;
+}
+
+
+.info {
+    width: 98%;
+    height: auto;
+    background: #b8102f ;
+    margin: 5% auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+   
+.info .tituloseccion {
+    color: #118ab2;
+    font-family:'Irish Grover', cursiva;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    border-bottom:  5px #061e88 solid;
+}
+
+.info .tituloinfo {
+    color: #06d6a0;
+    font-family: 'Irish Grover', cursiva;
+    font-weight: bolder;
+    font-size: x-large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.info .infoinfo {
+    color: #061e88;
+    font-family: 'Irish Grover', cursiva;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
